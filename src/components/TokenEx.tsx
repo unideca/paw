@@ -32,7 +32,7 @@ const TokenEx : FC<TokenExProps> = () => {
                             }}
                         />
                         <Text w={["320px","400px","400px","400px","400px","400px","400px"]} fontSize={["32px","32px","32px","32px","32px","40px","40px"]} fontWeight="bold" color="#333333">
-                            Paw Coin is a new paradigm in meme coin trading
+                            Paw Coin is all about the cuteness of cat paws to revolutionize the world of meme coins!
                         </Text>
                         {/* <Text w="400px" fontSize={["16px","16px","16px","16px","16px","24px","24px"]} color="#333333" mt={4} mb={4}>
                             Token Presale is 
