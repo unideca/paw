@@ -85,7 +85,7 @@ const Services : FC<ServicesProps> = ({isRender, setIsRender, tokenExInVariants,
             flexDir="column"
             alignItems="center"
         >
-            <Box textAlign="center" bg="#f9fafb" p={10}>
+            <Box textAlign="center" p={10}>
       {/* 제목 */}
       <Text fontSize="36px" fontWeight="bold" mb={8}>
         Getting Started
@@ -99,7 +99,7 @@ const Services : FC<ServicesProps> = ({isRender, setIsRender, tokenExInVariants,
         maxW="1200px"
         mx="auto"
       >
-        <GridItem textAlign="center" bg="#FFF7E0" p={8} borderRadius="md">
+        <GridItem textAlign="center" bg="blue.100" p={8} borderRadius="md">
           <Text
             bg="#FFD700"
             color="black"
@@ -120,7 +120,7 @@ const Services : FC<ServicesProps> = ({isRender, setIsRender, tokenExInVariants,
             A wallet is necessary for people wanting to use, trade, or hold Paw Coin. You can pick a wallet.
           </Text>
         </GridItem>
-        <GridItem textAlign="center" bg="#FFF7E0" p={8} borderRadius="md">
+        <GridItem textAlign="center" bg="blue.100" p={8} borderRadius="md">
           <Text
             bg="#FFD700"
             color="black"
@@ -147,7 +147,7 @@ const Services : FC<ServicesProps> = ({isRender, setIsRender, tokenExInVariants,
           download="guide.pdf" // 다운로드 속성 추가
           >Guide</Button>
         </GridItem>
-        <GridItem textAlign="center" bg="#FFF7E0" p={8} borderRadius="md">
+        <GridItem textAlign="center" bg="blue.100" p={8} borderRadius="md">
           <Text
             bg="#FFD700"
             color="black"

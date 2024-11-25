@@ -169,7 +169,7 @@ const App = () => {
         alignItems: "center", 
         width: "100%", 
         height: "100vh", 
-        backgroundColor: "#F7F9FC", 
+        backgroundColor: "#2ED2F8", 
       }}>
         <BeatLoader size={20} color={"black"} />
       </div>
@@ -185,7 +185,7 @@ const App = () => {
         particlesLoaded={particlesLoaded}
         options={{
           background: {
-            color: { value: "#f7f9fc" }, // 밝은 배경 색상
+            color: { value: "#2ED2F8" }, // 밝은 배경 색상
           },
           fpsLimit: 60,
           interactivity: {
@@ -199,7 +199,7 @@ const App = () => {
             },
           },
           particles: {
-            color: { value: ["#ff9f43", "#2ecc71", "#3498db", "#9b59b6", "#e74c3c"] }, // 다채로운 색상
+            color: { value: ["#ff9f43", "#2ecc71", "#3498db"] }, // 다채로운 색상
             links: {
               color: "#cccccc",
               distance: 120,
@@ -213,9 +213,9 @@ const App = () => {
               outModes: { default: "bounce" }, // 부드러운 움직임
               speed: 3,
             },
-            number: { density: { enable: true }, value: 100 }, // 입자 수 조정
+            number: { density: { enable: true }, value: 80 }, // 입자 수 조정
             opacity: { value: { min: 0.3, max: 0.8 } }, // 투명도 다양화
-            shape: { type: ["circle", "star"] }, // 별 모양 추가
+            shape: { type: ["circle"] }, // 별 모양 추가
             size: { value: { min: 3, max: 7 } }, // 입자 크기 다양화
           },
           detectRetina: true,
